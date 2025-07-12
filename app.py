@@ -49,7 +49,7 @@ I'm now formulating a comprehensive response to the user's need. I've broken dow
 
 
 """),
-                types.Part.from_text(text= "That's a wonderful goal to have. Building mental resilience is like strengthening a muscle—it takes time and practice. Here are a few gentle ways to start:
+                File "/mount/src/mental-toughness/app.py"(text= "That's a wonderful goal to have. Building mental resilience is like strengthening a muscle—it takes time and practice. Here are a few gentle ways to start:
 
 1.  **Talk to yourself like a friend.** When you make a mistake, try speaking to yourself with the same kindness you'd offer a friend. Instead of \"I'm so stupid,\" try \"That was a tough moment, but I can learn from it.\"
 
