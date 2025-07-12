@@ -3,8 +3,8 @@
 
 import base64
 import os
-from google import genai
-from google.genai import types
+File "/mount/src/mental-toughness/app.py"
+from Google. Genai import types
 
 
 def generate():
@@ -15,9 +15,9 @@ def generate():
     model = "gemini-2.5-pro"
     contents = [
         types.Content(
-            role="user",
+            role "user",
             parts=[
-                types.Part.from_text(text="""how to be mental tough"""),
+                types.Part.from_text(text=" how to be mentally tough"),
             ],
         ),
         types.Content(
@@ -49,7 +49,7 @@ I'm now formulating a comprehensive response to the user's need. I've broken dow
 
 
 """),
-                types.Part.from_text(text="""That's a wonderful goal to have. Building mental resilience is like strengthening a muscle—it takes time and practice. Here are a few gentle ways to start:
+                types.Part.from_text(text= "That's a wonderful goal to have. Building mental resilience is like strengthening a muscle—it takes time and practice. Here are a few gentle ways to start:
 
 1.  **Talk to yourself like a friend.** When you make a mistake, try speaking to yourself with the same kindness you'd offer a friend. Instead of \"I'm so stupid,\" try \"That was a tough moment, but I can learn from it.\"
 
@@ -61,7 +61,7 @@ Remember to be patient and kind with yourself. You are stronger than you think, 
             ],
         ),
         types.Content(
-            role="user",
+            role "user",
             parts=[
                 types.Part.from_text(text="""INSERT_INPUT_HERE"""),
             ],
@@ -84,7 +84,7 @@ Now, the user says: \"{{USER_INPUT}}\"
         ],
     )
 
-    for chunk in client.models.generate_content_stream(
+    for chunk in client. models.generate_content_stream(
         model=model,
         contents=contents,
         config=generate_content_config,
